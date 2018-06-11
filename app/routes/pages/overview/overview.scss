@@ -1,0 +1,32 @@
+.overview{
+	height: 100%;
+	width: 100%;
+	background: url(../img/map.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	.float{
+		height: 100%;
+		width: 100%;
+		background: #040414;
+		opacity: 0.6;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.contentBox{
+		position: relative;
+		z-index: 5;
+		height: 59rem;
+		width: 100%;
+		.pageBox{
+			float: left;
+		    height: 59rem;
+		    width: 80%;
+		    overflow: hidden;
+			color: red;
+			font-size: 1.8rem;
+			line-height: 5rem;
+			text-align: center;
+		}
+	}
+}

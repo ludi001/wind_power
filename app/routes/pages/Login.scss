@@ -1,0 +1,107 @@
+.login{
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	//align-items: center;
+	.iuputBox{
+		height: 32rem;
+		width: 32rem;
+		margin-top: 13rem;
+		.logo{
+			height: 5rem;
+			.img{
+				float: left;
+				height: 5rem;
+				width: 5rem;
+				background-size: 100% 100%;
+			}
+			.name{
+				float: left;
+				height: 5rem;
+				line-height: 5rem;
+				width: 22rem;
+				text-align: center;
+				color: #0759a0;
+				font-size: 1.8rem;
+			}
+		}
+		.title{
+			height: 3rem;
+			width: 100%;
+			font-size: 2rem;
+			text-align: center;
+			color: #fff;
+		}
+		.text{
+			height: 5rem;
+			line-height: 5rem;
+			width: 100%;
+			text-align: center;
+			font-size: 1.2rem;
+			color: #ddd;
+		}
+		.loginBox{
+			height: 20rem;
+			padding: 3rem 6rem;
+			.user{
+				width: 100%;
+				background: #fff;
+				height: 3rem;
+				border-radius: 5px;
+				margin-bottom: 1rem;
+				font-size: 1rem;
+				span{
+					width:3rem;
+					height:3rem;
+					float: left;
+					background: url(./img/user.png) no-repeat;
+					background-size: 60% 70%;
+					background-position: center;					
+				}
+				input{
+					height: 3rem;
+					width: 16.5rem;
+					border: none;
+					float: left;
+					border-left: 1px solid #ccc;
+				}
+			}
+			.password{
+				width: 100%;
+				background: #fff;
+				height: 3rem;
+				border-radius: 5px;
+				margin-bottom: 1rem;
+				font-size: 1rem;
+				span{
+					width:3rem;
+					height:3rem;
+					float: left;
+					background: url(./img/mm.png) no-repeat;
+					background-size: 60% 70%;
+					background-position: center;
+				}
+				input{
+					height: 3rem;
+					width: 16.5rem;
+					border: none;
+					float: left;
+					border-left: 1px solid #ccc;
+				}
+			}
+			.btn{
+				height: 3rem;
+				line-height: 3rem;
+				text-align: center;
+				width: 100%;
+				background: #4da6d2;
+				border-radius: 5px;
+				color: #f5f5f5;
+				font-size: 1.2rem;
+				cursor: pointer;
+			}
+		}
+	}
+}

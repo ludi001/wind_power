@@ -1,0 +1,19 @@
+.mainBox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .compsBox {
+    position: absolute;
+    border: 1px dashed #ddd;
+    background: rgba(0,0,0,0);
+    .dragbox{
+      width:20px;
+      height:20px;
+      float:left;
+      margin-top:-20px;
+      margin-left:-10px;
+      position:relative;
+      img{width:20px;position:absolute;top:0px;left:0px;z-index:2; }
+    }
+  }
+}

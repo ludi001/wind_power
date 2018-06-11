@@ -1,0 +1,84 @@
+.mainBox {
+  position: fixed;
+  top: 513px;
+  left: 0;
+  bottom: 10px;
+  width: 200px;
+  background-color: #d8d8d8;
+  border:1px solid #65a8d3;
+  text-align: center;
+  overflow:auto;
+  .butn {
+    position: absolute;
+    bottom: 20px;
+    width: 60px;
+    height: 30px;
+    color: #ffffff;
+    line-height: 30px;
+    right: 30px;
+    border-radius: 3px;
+    background-color: #4cbcf0;
+    cursor: pointer;
+  }
+  p{
+    overflow:hidden;
+  }
+  label{
+    width: 40%;
+    display: block;
+    float: left;
+    line-height:22px;
+    text-align: right;
+    padding-right:5px;
+    background-color:#2278b3;
+    border-right:1px solid #65a8d3;
+    border-bottom:1px solid #65a8d3; 
+    color: #fff;   
+  }
+  input{
+    height:23px;
+    width:60%;
+    padding-left:5px;
+    float:left;
+    border:none;
+    border-bottom:1px solid #65a8d3;
+    border-radius:0px;
+    outline:none;
+    background: #5a9ecd;
+    color: #fff;
+  }
+  .colorselect{
+    padding-left:26px;
+  }
+  .select{
+    border:1px solid #ccc;
+    height:23px;
+    float:left;
+    width:60%;
+    border-radius:0px;
+    outline:none;
+    border:none;
+    border-bottom:1px solid #d6d6d6;
+    &:hover{
+       border:1px solid #49a9ee;
+      // box-shadow:0px 0px 4px #49a9ee;
+    }    
+  }  
+}
+
+.mainBox::-webkit-scrollbar {
+    width:8px;
+    height:8px;
+    border:1px solid #f90;
+}
+.mainBox::-webkit-scrollbar-button    {
+    background-color:#f90;
+    display:none;
+}
+.mainBox::-webkit-scrollbar-track     {
+    background:#90bed8;
+}
+.mainBox::-webkit-scrollbar-thumb{
+    background:#3e9cd9;
+    border-radius:10px;
+}

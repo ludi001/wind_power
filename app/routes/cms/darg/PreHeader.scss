@@ -1,0 +1,28 @@
+.mainBox {
+  background-color: #404040;
+  position: fixed;
+  top: 80px;
+  right: 220px;
+  left: 220px;
+  height: 60px;
+  overflow: hidden;
+  .searchBox {
+    display: inline-block;
+    line-height: 80px;
+    text-align: center;
+    padding-left: 38px;
+    input {
+      width: 160px;
+      margin-right: 10px;
+    }
+  }
+  .iconBox {
+    padding: 0 15px;
+    float: right;
+    text-align: right;
+    line-height: 80px;
+    font-size: 20px;
+    color: #666666;
+    letter-spacing: 20px;
+  }
+}

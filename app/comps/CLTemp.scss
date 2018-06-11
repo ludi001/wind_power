@@ -1,0 +1,59 @@
+.tempBox{
+	position:relative;
+	p{
+		width: 120px;
+		margin-left: 20px;
+		line-height:25px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+		span:nth-child(1){
+			margin-right: 5px
+		}
+		span:nth-child(2){
+			margin-right: 5px
+		}
+		i{font-size: 20px}
+	}
+	.temp{
+		overflow:hidden;
+		background:#e6f1fa;
+		height: 285px;
+		border-radius:0px 0px 4px 4px;
+		li{
+			text-align:center;
+			float:left;
+			margin:5px 0 0 40px;
+			width: 100px;
+		}
+		.thermometer1{
+			width: 70px;
+			height: 220px;
+			position: relative;
+			background: url(../img/temp_1.png) no-repeat;
+			margin-left: 40px;
+
+			div{
+				width: 15px;height: 10px;
+				position: absolute;
+				left: 45px;top:150px;
+				background:url(../img/zhen_1.png) 0 0 no-repeat;
+
+			}
+		}
+		// .thermometer2{
+		// 	width: 70px;
+		// 	height: 220px;
+		// 	position: relative;
+		// 	background: url(../../../img/comp/temp_1.png) no-repeat;
+		// 	margin-left: 40px;
+		// 	div{
+		// 		width: 15px;height: 10px;
+		// 		position: absolute;
+		// 		left: 45px;top:150px;
+		// 		background:url(../../../img/comp/zhen_1.png) 0 0 no-repeat;	
+		// 	}
+		// }
+		
+
+	}	
+}

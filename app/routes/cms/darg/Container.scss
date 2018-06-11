@@ -1,0 +1,91 @@
+.pageFlow {
+  position: fixed;
+  background-color: #ffffff;
+  right: 0px;
+  clear: both;
+  overflow: hidden;
+  left: 200px;
+  bottom: 10px;
+  top: 70px;
+}
+
+.compsList {
+  position: fixed;
+  top: 69px;
+  left: 0;
+  width: 200px;
+  overflow: hidden;
+  clear: both;
+  bottom: 0px;
+  .menu{
+    width:100%;
+    background:#f2f2f2;
+    .tit{
+      background:#01538b;
+      width:100%;
+      height:34px;
+      display:block;
+      color:#fff;
+      padding:0px 10px 0 10px;
+      line-height:30px;
+      cursor:auto;
+      box-sizing:border-box;
+      box-shadow: 0px 2px 5px rgba(0,0,0,.65)
+    }
+    a{
+      width:100%;
+      height:30px;
+      padding:0px 10px 0 10px;
+      display:block;
+      border-bottom:1px solid #15649f;
+      border-top:1px solid #15649f;
+      color:#fff;
+      background:#0073c3;
+      overflow:hidden;
+      box-sizing:border-box;
+      span{
+        line-height:30px;
+        float:left;
+        margin-left:20px;
+      }
+    }    
+    ul{
+      margin:0px;padding:0px;
+      display:none;
+      height:178px;
+      width:100%;
+      padding:5px 0px;
+      overflow-y:auto;
+      background:#4f92bd;
+      li{
+        list-style:none; 
+         width:100%;
+        height:35.5px;
+        padding:0px 5px 0 10px;
+        border-bottom:1px solid #e1e1e1;
+        &:hover{
+          box-shadow:0px 0px 5px #585f6f;
+        }
+        img{
+          width:50px;
+          height:30px;
+          float:right;
+          margin-top: 2px;
+        }
+        }
+      }
+  }
+}
+
+ul::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 8px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 8px;
+}
+ul::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 5px;
+    background: #3d9cd6;
+}
+ul::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    border-radius: 0;
+    background: #97c1da;
+}

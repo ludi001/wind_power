@@ -1,0 +1,41 @@
+.mainBox1{
+	position:fixed;
+	top: 399px;
+  	left: 0;
+  	height:100px;
+  	width:200px;
+  	background:#797e84;
+  	label{
+      width: 40%;
+      display: block;
+      float: left;
+      line-height:22px;
+      text-align: right;
+      padding-right:10px;
+      background-color:#0073c3;
+      border-right:1px solid #65a8d3;
+      border-bottom:1px solid #65a8d3;
+      color: #fff;
+  }
+  input{
+   height:23px;
+   width:60%;
+   padding-left:5px;
+   float:left;
+   border:none;
+   border-bottom:1px solid #65a8d3;
+   border-radius:0px;
+   outline:none;
+   background:#378dc8;
+   color: #fff;
+  }
+}
+.mainbox2{
+  
+  position:fixed;
+  top: 399px;
+    left: 0;
+    height:100px;
+    width:200px;
+    background:#0073c3;
+}

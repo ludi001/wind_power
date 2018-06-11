@@ -1,0 +1,31 @@
+.treedatabox{
+	background:rgba(0,0,0,0.5);
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:666;
+	.cardbox{
+	 width:50%;
+	 height:60%;
+	 margin:100px auto;
+	 .close{
+	  cursor:pointer;
+	  font-size:16px;
+	  &:hover{
+	  color:#3385ff;
+	  font-weight:bold;
+
+	  }
+	 }
+
+	 .treebox{
+	  width:100%;
+	  height:100%;
+	  overflow:auto;
+	 }
+
+
+	}
+}

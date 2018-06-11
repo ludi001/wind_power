@@ -1,0 +1,55 @@
+.speedBox{
+	position:relative;
+	font-size: 14px;
+	.speed{
+		width:220px;
+		height:150px;
+		overflow:hidden;
+		-background:#e6f1fa;
+		border-radius:0px 0px 4px 4px;
+		text-align:center;
+		.speedLeft{
+			float:left;
+			margin:0px 20px;
+			.wsdialbox{
+				width:169px;
+				height:91px;
+				background-image:url(../img/dial_023.png);
+				position:relative;
+				.wsipbox{
+					width:120px;
+					height:16px;
+					background:url(../img/dial_001.png) no-repeat;
+					position:absolute;
+					bottom:2px;
+					left:-24px;
+					
+					transform: rotate(0deg);
+					transform-origin:90% 50%;
+				}
+			}
+			p{margin-bottom: -5px} 
+		}
+		// .speedRight{
+		// 	float:left;
+		// 	margin-left:10px;
+		// 	.wsdialbox{
+		// 		width:169px;
+		// 		height:91px;
+		// 		background-image:url(../../../img/comp/dial_024.png);
+		// 		position:relative;
+		// 		.wsipbox{
+		// 			width:120px;
+		// 			height:16px;
+		// 			background:url(../../../img/comp/dial_001.png) no-repeat;
+		// 			position:absolute;
+		// 			bottom:2px;
+		// 			left:-24px;
+		// 			-transform: transform 2s easein;
+		// 			transform: rotate(0deg);
+		// 			transform-origin:90% 50%;
+		// 		}
+		// 	}
+		// }
+	}
+}

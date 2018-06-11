@@ -1,0 +1,55 @@
+.header{
+	height: 4rem;
+	margin-bottom: 1rem;
+	background: url(./img/header.png) no-repeat;
+	background-size: 97% 205%;
+	position: relative;
+	z-index: 3;
+	.logo{
+		height: 4rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.img{
+			float:left;
+			height: 4rem;
+			width: 16rem;
+			background:url(./img/logo.png) no-repeat;
+			background-size: 100% 100%;
+		}
+	}
+	.nav{
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 5;
+		height: 4rem;
+		width: 100%;
+		font-size: 1.2rem;
+		ul{
+			height: 4rem;
+			width: 100%;
+			line-height: 4rem;
+			list-style: none;
+			padding: 0;
+			li{
+				float: left;
+				width: 10%;
+				height: 4rem;
+				margin-left: 1%;
+				cursor: pointer;
+				overflow: hidden;
+				text-align: center;
+				font-size: 1.2rem;
+				img{
+					height: 2rem;
+					width: 2rem;
+					margin-right: 0.5rem;					
+				}
+			}
+			li:nth-child(4){
+				margin-left: 34%;
+			}
+		}
+	}
+}

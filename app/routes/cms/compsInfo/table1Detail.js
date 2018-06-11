@@ -1,0 +1,19 @@
+module.exports = {
+  title:'',
+  width:100,
+  txtheight:200,
+  titheight:40,
+  conheight:40,
+  marginTop:0,
+  marginLeft:0,
+  fontSize:12,
+  color:'#333',
+  color1:'#333',
+  fontWeight:'true',
+  borderWidth:1,
+  borderStyle:'solid',
+  borderColor:'#ccc',
+  backgroundColor:'#fff',
+  backgroundColor1:'#fff',
+  datasourse:''
+}

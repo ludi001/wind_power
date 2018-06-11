@@ -1,0 +1,29 @@
+.bodybox{
+	position:relative;
+	border-radius:5px;
+	overflow:hidden;
+	border:1px solid #108ee9;
+	box-sizing:border-box;
+	.processbar{
+	  background:#108ee9;
+	  position:absolute;
+	  top:0px;
+	  left:0px;
+	  border-radius:5px;
+	}
+	.databar{
+	  position:absolute;
+	  padding:0 10px;
+	  top:0px;
+	  left:0px;
+	}
+	.persent{
+	  position:absolute;
+	  padding:0 10px;
+	  top:0px;
+	  right:5px;
+	}
+}
+.lun{
+	color:#369；
+}

@@ -1,0 +1,83 @@
+ .tabbox{
+   
+   border:1px solid #666;
+   border-radius:3px;
+   position:relative;
+   overflow:hidden;
+   line-height:40px;
+   .Theader{
+    width:100%;
+    float:left;
+    border-bottom:1px solid #ccc;
+    overflow:hidden;
+    text-align:center;
+    span{
+     float:left;
+     box-sizing:border-box;
+     display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+     padding-left:10px;
+     b{
+     font-weight:normal;
+     }
+    }
+   }
+   .Tbody{
+      overflow-y:auto;
+      overflow-x:hidden;
+      width:100%;
+      float:left;
+     .Tdbox{
+      overflow:hidden;
+      float:left;
+      width:100%;
+       text-align:center;
+      white-space:nowrap; 
+      span{
+       float:left;
+       box-sizing:border-box;
+       display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+      padding-left:10px;
+     button{
+       background:#108ee9;
+       color:#fff;
+       border-radius:3px;
+       border:none;
+       padding:0px 8px;
+       line-height:180%;
+       font-size:12px;
+       margin:0px 5px;
+     }
+
+
+      }
+       
+        
+      }
+       .Tdbox:nth-child(even){
+        span{
+          background:rgba(221,221,221,0.5);
+        }
+          
+
+     }
+    
+   }
+  }
+
+
+  .Tbody::-webkit-scrollbar {
+        width:8px;
+        height:10px;
+        border:1px solid #f90;
+    }
+.Tbody::-webkit-scrollbar-button    {
+        background-color:#f90;
+        display:none;
+    }
+.Tbody::-webkit-scrollbar-track     {
+        background:#f5f5f5;
+    }
+.Tbody::-webkit-scrollbar-thumb{
+        background:#ccc;
+        border-radius:10px;
+    }

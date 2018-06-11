@@ -1,0 +1,14 @@
+.alertText{
+	position: fixed;
+	top: 30%;
+	height: 4rem;
+	line-height: 4rem;
+	text-align: center;	
+	color: #fff;
+	font-size: 1.2rem;	
+	span{
+		background: #00a680;
+		border-radius: 10px;
+		padding: 1rem;
+	}
+}
